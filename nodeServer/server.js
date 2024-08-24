@@ -9,9 +9,12 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
+// Replace this with your latest deployment URL
+const CLIENT_URL = 'https://chat-application-ecgyzxb9y-lavanyas-projects-24a9e043.vercel.app';
+
 // Configure CORS
 app.use(cors({
-  origin: 'https://chat-application-ktdnufuja-lavanyas-projects-24a9e043.vercel.app', // Replace with your production URL
+  origin: CLIENT_URL, // Set CORS origin to the latest URL
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));

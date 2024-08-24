@@ -1,4 +1,4 @@
-const socket = io('https://chat-application-ktdnufuja-lavanyas-projects-24a9e043.vercel.app');
+const socket = io('https://chat-application-ecgyzxb9y-lavanyas-projects-24a9e043.vercel.app');
 
 // Get references to the form, input field, and messages list
 const usernameForm = document.getElementById('username-form');

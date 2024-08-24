@@ -1,2 +1,29 @@
+# Node.js
 node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+*.log
+logs/
+
+# Build files
+/dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor specific files
 .vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp

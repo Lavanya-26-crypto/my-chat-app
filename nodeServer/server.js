@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 // Replace this with your latest deployment URL
-const CLIENT_URL = 'https://chat-application-ecgyzxb9y-lavanyas-projects-24a9e043.vercel.app';
+const CLIENT_URL = 'https://my-chat-app-seven-iota.vercel.app';
 
 // Configure CORS
 app.use(cors({
